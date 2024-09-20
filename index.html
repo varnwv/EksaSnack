@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKSASNACK</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.gogleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.gogleapis.com/css2?family=Rubik:wght@300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">EKSASNACK</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+        
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="home-contect">
+            <img src="logo(2).png" alt="">
+            <h1>Welcome</h1>
+            <br>
+            <span>EksaSnack</span>
+            <br>
+            <hr style="border: none; height: 2px; background-color: #ffffff; width: 100%;">
+            <br>
+            <p>Kami di Eksasnack menghadirkan berbagai pilihan camilan lezat yang siap menemani setiap momen istimewa Anda. Dari rasa gurih hingga pedas, kami menawarkan produk berkualitas tinggi yang diproduksi dengan bahan-bahan terbaik. Nikmati setiap gigitan dari Eksasnack, teman setia di setiap suasana!</p>
+            <div class="social-icons">
+                <a href="https://instagram.com/eksa_snack" target="_blank" class="icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+            <a href="#menu" class="btn">menu</a>
+             </div>
+        </div>
+
+    </section>
+    
+    <section id="menu" class="card-container">
+        <div class="card">
+            <img src="lumpia.png" alt="Image 1">
+            <div class="card-info">
+                <h3>Lumpia crispy</h3>
+                <p>Lumpia crispy ini adalah camilan gurih dan renyah yang cocok dinikmati kapan saja. Dibuat dari kulit lumpia yang digoreng hingga kecoklatan, memberikan sensasi kriuk di setiap gigitan. Sangat pas untuk teman minum teh atau kopi!</p>
+                <a href="#contact" class="btn">pesan</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="basreng.png" alt="Image 2">
+            <div class="card-info">
+                <h3>basreng</h3>
+                <p>Dengan bumbu pedas yang meresap sempurna, basreng ini menjadi pilihan tepat bagi para pencinta makanan pedas. Sekali coba, pasti ketagihan!</p>
+                <a href="#contact" class="btn">pesan</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="usus.png" alt="Image 3">
+            <div class="card-info">
+                <h3>usus crispy</h3>
+                <p>Diolah dengan bumbu khas dan digoreng hingga garing, membuatnya menjadi camilan yang lezat dan menggugah selera. Cocok dinikmati kapan saja!</p>
+                <a href="#contact" class="btn">pesan</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-container">
+        <div class="contact-container">
+            <h1>Pesan</h1>
+            <form
+            action="https://formspree.io/f/mdknrnwb"
+            method="POST"
+          >
+          <label for="name">Nama:</label>
+          <input type="text" name="name" id="name" required>
+       
+          <!-- Pesanan -->
+          <label for="pesanan">Pesanan:</label>
+          <label style="font-size: 16px;"> (sertakan level)</label>
+
+          <input type="text" name="pesanan" id="pesanan" required>
+       
+          <!-- Alamat -->
+          <label for="alamat">Alamat:</label>
+          <input type="text" name="alamat" id="alamat" required>
+
+          <!-- Alamat -->
+          <label for="Nomor">kontak yang dapat di hubungi :</label>
+          <input type="text" name="Nomor" id="Nomor" required>
+            
+          <!-- Pesan (opsional) -->
+          <label for="pesan">Pesan (Opsional):</label>
+          <textarea name="pesan" id="pesan"></textarea>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+          </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <marquee class="marquee" direction="left"> | EKSASNACK | EKSASNACK | EKSASNACK | EKSASNACK  | EKSASNACK | EKSASNACK   </marquee>   
+        <br>
+        <p>&copy; 2024 vary. All rights reserved.</p>
+    </footer>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
